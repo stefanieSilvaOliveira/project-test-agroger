@@ -1,12 +1,31 @@
-# React + Vite
+Teste Técnico - Agroger
+Descrição do Projeto
+Este projeto foi desenvolvido como parte de um teste técnico, onde utilizei React.js, Vite, vite-test e json-server. O objetivo é criar uma interface que exibe informações sobre sessões agropecuárias de uma fábrica de café.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidade
+O projeto consiste em um botão que, ao ser clicado, faz uma requisição para uma API que retorna informações sobre as sessões agropecuárias. Essas informações são exibidas dinamicamente na interface para o cliente. A API foi simulada utilizando o json-server, criando um mock de dados para o desenvolvimento do front-end.
 
-Currently, two official plugins are available:
+Tecnologias Utilizadas
+React.js: Framework para construir interfaces de usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite: Ferramenta de construção para um desenvolvimento mais rápido e otimizado.
 
-## Expanding the ESLint configuration
+vite-test: Para testes unitários e integração dos componentes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+json-server: Servidor fake para simulação de uma API RESTful.
+
+SASS: Para a estilização do projeto, criando um código mais modular e reutilizável.
+
+Aprendizados
+Durante o desenvolvimento deste projeto, aprendi a utilizar SASS para estilização, o que trouxe maior modularidade e organização para o código. Além disso, coloquei em prática boas práticas de organização de código, com arquivos bem estruturados e descrições claras, garantindo fácil manutenção e acessibilidade.
+
+<b> Rodar o Projeto</b>
+
+Comando para a execução do front end: 
+npm run dev
+
+Comando para a execução da API: 
+npm run start-api
+
+Comando para a execução de testes unitários:
+npm run test

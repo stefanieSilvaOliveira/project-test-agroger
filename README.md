@@ -1,12 +1,36 @@
-# React + Vite
+<b>Teste Técnico - Agroger</b>
+<br>
+<br>
+<b>Descrição do Projeto</b>
+Este projeto foi desenvolvido como parte de um teste técnico, onde utilizei React.js, Vite, vite-test e json-server. O objetivo é criar uma interface que exibe informações sobre sessões agropecuárias de uma fábrica de café.
+<br>
+<br>
+<b>Funcionalidade</b>
+O projeto consiste em um botão que, ao ser clicado, faz uma requisição para uma API que retorna informações sobre as sessões agropecuárias. Essas informações são exibidas dinamicamente na interface para o cliente. A API foi simulada utilizando o json-server, criando um mock de dados para o desenvolvimento do front-end.
+<br>
+<br>
+<b>Tecnologias Utilizadas</b>
+React.js: Framework para construir interfaces de usuário.
+<br>
+Vite: Ferramenta de construção para um desenvolvimento mais rápido e otimizado.
+<br>
+vite-test: Para testes unitários e integração dos componentes.
+<br>
+json-server: Servidor fake para simulação de uma API RESTful.
+<br>
+SASS: Para a estilização do projeto, criando um código mais modular e reutilizável.
+<br>
+<br>
+<b>Aprendizados</b>
+Durante o desenvolvimento deste projeto, aprendi a utilizar SASS para estilização, o que trouxe maior modularidade e organização para o código. Além disso, coloquei em prática boas práticas de organização de código, com arquivos bem estruturados e descrições claras, garantindo fácil manutenção e acessibilidade.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<b> Rodar o Projeto</b>
 
-Currently, two official plugins are available:
+<b>Comando para a execução do front end: </b>
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Comando para a execução da API: </b>
+npm run start-api
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<b>Comando para a execução de testes unitários:</b>
+npm run test

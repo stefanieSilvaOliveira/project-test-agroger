@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "sessao": "11212",
+      "cooperativa": "Cooperativa Vale do Rio Doce",
+      "dataCriacao": "30/05/2023 - 15:00 - São Paulo"
+    },
+    {
+      "id": 2,
+      "sessao": "11213",
+      "cooperativa": "Cooperativa Nova Esperança",
+      "dataCriacao": "02/06/2023 - 10:00 - Belo Horizonte"
+     
+    },
+
+     {
+      "id": 3,
+      "sessao": "11214",
+      "cooperativa": "Cooperativa Nova Ideia",
+      "dataCriacao": "02/08/2025 - 14:00 - Bahia"
+     
+    }
+
+  ]
+}

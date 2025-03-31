@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .container-nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .image-coffe {
+        margin-left: 0;
+        margin-right: 80px;
+        margin-bottom: 10px;
+    }
+
+    .input-container {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .icon-container {
+        margin-top: 10px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-search {
+        font-size: 14px;
+        height: 34px;
+    }
+
+    .search-icon {
+        font-size: 18px;
+    }
+}
